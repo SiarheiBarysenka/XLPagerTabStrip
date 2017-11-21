@@ -385,7 +385,7 @@ open class PagerTabStripViewController: UIViewController, UIScrollViewDelegate {
 
     }
 
-    private var pagerTabStripChildViewControllersForScrolling: [UIViewController]?
+    public var pagerTabStripChildViewControllersForScrolling: [UIViewController]?
     private var lastPageNumber = 0
     private var lastContentOffset: CGFloat = 0.0
     private var pageBeforeRotate = 0
